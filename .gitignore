@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+# docs folder is used for GitHub Pages, so we keep it in git
+# !docs
 
 # Editor directories and files
 .vscode/*
