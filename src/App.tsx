@@ -39,7 +39,7 @@ function App() {
       <div className="container">
         <h1 className="title">Chegada dos pombinhos</h1>
         <div className="days-display">
-          <span className="number">{timeLeft.days}</span>
+          <span className="number">!{timeLeft.days}</span>
           <span className="label">dias</span>
         </div>
         <p className="subtitle">
