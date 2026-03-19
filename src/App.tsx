@@ -10,7 +10,7 @@ function App() {
   })
 
   useEffect(() => {
-    const targetDate = new Date('2026-03-02T00:00:00').getTime()
+    const targetDate = new Date('2026-07-07T00:00:00').getTime()
 
     const updateTimer = () => {
       const now = new Date().getTime()
@@ -37,12 +37,14 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1 className="title">Faltam</h1>
+        <h1 className="title">Chegada dos pombinhos</h1>
         <div className="days-display">
           <span className="number">{timeLeft.days}</span>
           <span className="label">dias</span>
         </div>
-        <p className="subtitle">para as férias da Maíra! 🏖️</p>
+        <p className="subtitle">
+          para o reencontro do casal viajante direto da Italia! ✈️💞
+        </p>
         
         <div className="time-details">
           <div className="time-item">
@@ -60,7 +62,13 @@ function App() {
         </div>
 
         <div className="date-info">
-          <p>Data das férias: 2 de março de 2026</p>
+          <p>Pouso previsto: 7 de julho de 2026</p>
+          {timeLeft.days === 0 &&
+          timeLeft.hours === 0 &&
+          timeLeft.minutes === 0 &&
+          timeLeft.seconds === 0 ? (
+            <p>Chegaram! Hora de matar a saudade e celebrar! 🥳</p>
+          ) : null}
         </div>
       </div>
     </div>

@@ -45,12 +45,9 @@ npm run deploy
 
 3. O comando irá:
    - Fazer o build do projeto
-   - Fazer deploy para a branch `gh-pages` no GitHub
-
-4. Configure o GitHub Pages:
+   - Fazer deploy para a branch `gh-pages` no GitHub4. Configure o GitHub Pages:
    - Vá em Settings > Pages no seu repositório GitHub
    - Selecione a branch `gh-pages` como source
    - Seu site estará disponível em: `https://seu-usuario.github.io/contador-ferias/`
 
 **Nota:** Se o nome do seu repositório for diferente de `contador-ferias`, você precisa atualizar o `base` no arquivo `vite.config.ts` para corresponder ao nome do repositório.
-
