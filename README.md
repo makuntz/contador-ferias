@@ -1,6 +1,6 @@
 # Contador de Férias - Maíra 🏖️
 
-Um contador regressivo simples e bonito mostrando quantos dias faltam para as férias da Maíra (2 de março de 2026).
+Um contador regressivo simples e bonito mostrando quantos dias faltam para as férias da Maíra (24 de setembro de 2026).
 
 ## Tecnologias
 
